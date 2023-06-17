@@ -1,0 +1,26 @@
+body {
+    background-color: #8ca1ce;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+form {
+    background-color: rgb(6, 93, 119);
+    align-items: left;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+label {
+    text-align: left;
+}
+
+input, select {
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}

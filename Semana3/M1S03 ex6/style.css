@@ -1,0 +1,171 @@
+:root {   /* html or body*/
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+html,
+body,
+div,
+header,
+main ,
+footer,
+p ,
+span ,
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+ol {   /* basic reset */
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    min-height: 100vh;
+}
+
+#page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+main, 
+footer {
+    padding: 16px;
+}
+
+header, 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: #000080;
+}
+
+.logo-text {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+nav { 
+    display: flex;
+    gap: 8px;
+}
+
+nav > a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main{
+    max-width: 800px;
+    align-self: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+#cards-container{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+#cards-container  > li{
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    flex-direction: column;
+    border-radius: 16px;
+    border: 1px solid #000080;
+    justify-content: space-between;
+}
+
+#cards-container   li span button {
+  display: flex;
+  justify-content: left;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 85px;
+}
+
+
+#cards-container  > li > img{
+  width: 320px;
+  border-radius: 8px;
+  aspect-ratio: 4/3;
+  display: block;
+  background-color: #e8e8e8;
+}
+
+#cards-container > li > h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.formulario {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.formulario > label {
+    display: flex;
+    align-items: center;
+}
+
+form input[type = "text"] {
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+form input[type = "date"] {
+    flex-grow: 1;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.btnForm {
+    background-color: red;
+    color: white;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.priceView {
+    display: flex;
+    justify-content: space-between;
+}
