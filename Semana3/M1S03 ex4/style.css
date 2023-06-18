@@ -1,5 +1,10 @@
 body {
-    background-color: #8ca1ce;
+    background-color: #fff;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
 }
 
 fieldset {
@@ -7,15 +12,11 @@ fieldset {
 }
 
 form {
-    background-color: rgb(6, 93, 119);
+    background-color: #d6eaf8;
     align-items: left;
     border-radius: 5px;
     text-align: center;
 
-}
-
-label {
-    text-align: left;
 }
 
 input, select {
